@@ -1,0 +1,34 @@
+	
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-lineal);
+    font-size: var(--text-md);
+    line-height: 1.6;
+    background-color: var(--gray-white);
+    text-decoration: none;
+  }
+  
+  h1, h2 {
+    font-weight: normal;
+    line-height: 1.1;
+  }
+  
+  h1 {
+    font-family: var(--font-lineal);
+    font-size: var(--mobile-xxl);
+  }
+  
+  h2 {
+    font-family: var(--font-lineal2);
+    font-size: var(--title-xl);
+  }
+  
+  h3 {
+    font-family: var(--font-lineal);
+    line-height: 1.4;
+  }

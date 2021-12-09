@@ -1,0 +1,10 @@
+.footer {
+    background-color: var(--gray-black);
+    color: var(--gray-black);
+    padding: 64px var(--space3x);
+  }
+
+.footer__nom {
+    font-size: var(--mobile-xs) ;
+
+}

@@ -1,0 +1,15 @@
+/*POLICES*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Raleway:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
+
+/*Vendors*/
+@import url('vendors/normalize.css');
+
+/*Variables*/
+@import url('utils/variables.css');
+
+/*Base*/
+@import url('base/main.css');
+@import url('base/media.css');
+
+/*Layout*/
+@import url('layout/footer.css');

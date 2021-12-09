@@ -1,0 +1,34 @@
+:root{
+
+/* Color styles */
+--white: rgba(255, 255, 255, 1);
+--beige: rgba(236, 232, 225, 1);
+--brown: rgba(217, 213, 212, 1);
+--gray: rgba(99, 99, 99, 1);
+--gris: rgba(64, 63, 63, 1);
+--lavender: rgba(196, 195, 210, 1);
+--soft-red: rgba(207, 138, 131, 1);
+--baby-blue: rgba(181, 211, 233, 1);
+--green: rgba(161, 200, 155, 1);
+
+/* Text-size styles */
+--mobile-xxl: 34px;
+--mobile-xl: 25px;
+--mobile-m: 16px;
+--mobile-s: 13px;
+--mobile-sm: 14px;
+--mobile-l: 24px;
+--mobile-xs: 12px;
+
+/*Text-font styles*/
+
+--font-lineal: "Montserrat";
+--font-lineal2: "Raleway";
+
+   /* Espaces */
+   --space1x: 8px;
+   --space2x: 16px;
+   --space3x: 24px;
+   --space4x: 48px;
+
+}
