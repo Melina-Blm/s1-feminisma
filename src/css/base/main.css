@@ -6,21 +6,22 @@
 }
 
 body {
-    font-family: var(--font-lineal);
+    font-family: var(--font-lineal2);
     font-size: var(--text-md);
     line-height: 1.6;
-    background-color: var(--gray-white);
+    background-color: var(--beige);
     text-decoration: none;
+ 
   }
   
-  h1, h2 {
-    font-weight: normal;
-    line-height: 1.1;
-  }
-  
-  h1 {
+h1 {
+
     font-family: var(--font-lineal);
+    font-weight: normal;
+    line-height: 1.6;
+    padding: var(--space3x);
     font-size: var(--mobile-xxl);
+
   }
   
   h2 {
@@ -29,6 +30,6 @@ body {
   }
   
   h3 {
-    font-family: var(--font-lineal);
+    font-family: var(--font-lineal2);
     line-height: 1.4;
   }

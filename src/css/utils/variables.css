@@ -22,8 +22,8 @@
 
 /*Text-font styles*/
 
---font-lineal: "Montserrat";
---font-lineal2: "Raleway";
+--font-lineal: 'Montserrat';
+--font-lineal2: 'Raleway';
 
    /* Espaces */
    --space1x: 8px;
