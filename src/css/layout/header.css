@@ -1,0 +1,17 @@
+.header{
+    background-color: var(--green);
+    display : flex;
+    justify-content: space-between; 
+
+    
+}
+.header__titre{
+    margin:0;
+
+
+
+    /*MARGIN POUR ENLEVER LESPACE EN HAUT*/
+}
+.header__titre a{
+    color : var(--white)
+}

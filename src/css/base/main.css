@@ -7,7 +7,7 @@
 
 body {
     font-family: var(--font-lineal2);
-    font-size: var(--text-md);
+    font-size: var(--mobile-m);
     line-height: 1.6;
     background-color: var(--beige);
     text-decoration: none;
@@ -23,13 +23,4 @@ h1 {
     font-size: var(--mobile-xxl);
 
   }
-  
-  h2 {
-    font-family: var(--font-lineal2);
-    font-size: var(--title-xl);
-  }
-  
-  h3 {
-    font-family: var(--font-lineal2);
-    line-height: 1.4;
-  }
+ 
