@@ -13,5 +13,7 @@
     /*MARGIN POUR ENLEVER LESPACE EN HAUT*/
 }
 .header__titre a{
-    color : var(--white)
+    color : var(--white);
+    text-decoration: none;
+    padding: 10px;
 }
