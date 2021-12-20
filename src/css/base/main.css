@@ -7,7 +7,6 @@
 
 body {
     font-family: var(--font-lineal2);
-    font-size: var(--mobile-m);
     line-height: 1.6;
     background-color: var(--beige);
     text-decoration: none;

@@ -8,12 +8,75 @@
 .header__titre{
     margin:0;
 
-
-
     /*MARGIN POUR ENLEVER LESPACE EN HAUT*/
 }
 .header__titre a{
     color : var(--white);
     text-decoration: none;
     padding: 10px;
+}
+
+.tagline {
+    display: flex;
+    justify-content: center;
+    font-size: var(--mobile-lm);
+    color: var(--gris);
+
+}
+.intro {
+    display: flex;
+    justify-content: center;
+    color: var(--gris);
+}
+
+.rectangle2 {
+    display: flex; 
+    justify-content: center;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+.article1 img{
+    height: 153px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article1{
+    display: flex;
+    justify-content: center;
+}
+.article2 img{
+    height: 166px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article2{
+    display: flex;
+    justify-content: center;
+}
+.article3 img{
+    height: 148px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article3{
+    display: flex;
+    justify-content: center;
+}
+.introarticles{
+    display: flex;
+    justify-content: center;
+    margin-bottom:35px;
+    font-size: var(--mobile-m);
+    font-weight: normal;
+    color: var(--gris);
+
+    
+}
+
+.accueilbutton{
+    display: flex;
+    justify-content: center;
 }

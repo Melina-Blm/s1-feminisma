@@ -1,5 +1,41 @@
 .footer {
     background-color: var(--gris);
     color: var(--white);
-    padding: 64px var(--space3x);
+    margin-top:30px;
   }
+
+.footer__nom {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  margin-bottom:20px;
+  font-size: var(--mobile-xs);
+  font-family: var(--font-lineal);
+
+}
+.footer__mail {
+  display: flex;
+  justify-content: center;
+  font-weight: normal;
+  font-size: var(--mobile-xs);
+  font-family: var(--font-lineal);
+  color: white;
+
+}
+
+.footer__linkedin img{
+    height: 28px;
+    width: 25px;
+}
+.footer__linkedin {
+  padding: 10px;
+}
+.footer__mentions-legales{
+  font-size: var(--mobile-s);
+  font-family: var(--font-lineal);
+  padding: 10px;
+}
+.footer__mentions-legales a{ 
+  color:white;
+
+}
