@@ -1,0 +1,32 @@
+
+
+.textgallery {
+    display: flex;
+    justify-content:center;
+    color:var(--gris);
+
+}
+.picturegallery {
+    display: flex;
+    justify-content: center;
+}
+.introgallery {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.iconegallery {
+    display: flex;
+    justify-content: center;
+}
+.iconegallery img {
+    width: 70px;
+    height: 70px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/*    margin-bottom: 30px;
+    margin-top: -10px; 
+*/

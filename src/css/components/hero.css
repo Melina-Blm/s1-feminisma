@@ -1,0 +1,45 @@
+.article1 img{
+    height: 153px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article1{
+    display: flex;
+    justify-content: center;
+}
+.article2 img{
+    height: 166px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article2{
+    display: flex;
+    justify-content: center;
+}
+.article3 img{
+    height: 148px;
+    width: 298px;
+/*A REVOIR*/
+}
+
+.article3{
+    display: flex;
+    justify-content: center;
+}
+.introarticles{
+    display: flex;
+    justify-content: center;
+    margin-bottom:35px;
+    font-size: var(--mobile-m);
+    font-weight: normal;
+    color: var(--gris);
+
+}
+
+.article1text {
+    display: flex;
+    justify-content: center;
+}
+

@@ -1,0 +1,44 @@
+.textwebsite {
+    display: flex;
+    justify-content: center;
+    color: var(--gris);
+    margin-bottom: 35px;
+    margin-left: 30px;
+    margin-right:30px;
+    font-size: var(--mobile-m);
+}
+.project__img{
+    display: flex;
+    justify-content: center;
+}
+.project__img img {
+    width: 80px;
+    height: 80px;
+}
+.project__text1 {
+    display: flex;
+    justify-content: center;
+    font-size: var(--mobile-m);
+    margin-top: 5px;
+    color: var(--gris);
+}
+.project__text2 {
+    display: flex;
+    justify-content: center;
+    font-size: var(--mobile-m);
+    color: var(--gris);
+    margin-top: -20px;
+    margin-bottom: 45px;
+}
+
+/*
+.project__img a img{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    height: 64px;
+    width: 64px;
+
+}
+*/

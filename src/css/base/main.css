@@ -23,3 +23,37 @@ h1 {
 
   }
  
+h2 {
+  font-family: var(--font-lineal2);
+  font-size: var(--mobile-l);
+  font-weight: normal;
+  color: var(--gris);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+ 
+}
+
+h3 {
+  font-weight: bold;
+  font-size: var(--mobile-lm);
+
+
+}
+h4 {
+
+  display: flex;
+  justify-content: center;
+  color: var(--gris);
+  font-weight: bold;
+}
+h5 {
+  display: flex;
+  justify-content: center;
+  font-family: var(--font-lineal);
+  font-size: var(--mobile-sm);
+  font-weight: normal;
+  text-decoration: none;
+}
