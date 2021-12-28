@@ -14,6 +14,9 @@
 /*Layout*/
 @import url('layout/footer.css');
 @import url('layout/header.css');
+@import url('layout/forms.css');
+@import url('layout/section-presentation.css');
+@import url('layout/section.css');
 
 /*Components*/
 @import url('components/menu.css');
@@ -22,3 +25,6 @@
 @import url('components/autreproject.css');
 @import url('components/aproposs.css');
 @import url('components/galeriie.css');
+@import url('components/glossaiire.css');
+@import url('components/artiicles.css');
+

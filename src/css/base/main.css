@@ -57,3 +57,21 @@ h5 {
   font-weight: normal;
   text-decoration: none;
 }
+
+#trait_dessus
+{
+border-top: 2px solid #fff;
+width : 375px;
+} 
+
+.iconeall {
+  display: flex;
+  justify-content: center;
+}
+.iconeall img {
+  width: 70px;
+  height: 70px;
+  margin-top: -1.25rem;
+  margin-bottom: 1.25rem;
+}
+

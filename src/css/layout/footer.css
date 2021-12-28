@@ -8,7 +8,8 @@
   display: flex;
   justify-content: center;
   font-weight: normal;
-  margin-bottom:20px;
+  padding-top:10px;
+  margin-bottom:10px;
   font-size: var(--mobile-xs);
   font-family: var(--font-lineal);
 
@@ -17,6 +18,8 @@
   display: flex;
   justify-content: center;
   font-weight: normal;
+  margin-top:10px;
+  text-decoration: none;
   font-size: var(--mobile-xs);
   font-family: var(--font-lineal);
   color: white;
@@ -29,13 +32,23 @@
 }
 .footer__linkedin {
   padding: 10px;
+
 }
 .footer__mentions-legales{
   font-size: var(--mobile-s);
   font-family: var(--font-lineal);
-  padding: 10px;
+  margin-bottom :20px;
+  padding-bottom: 20px;
+  text-align: center;
+
 }
 .footer__mentions-legales a{ 
   color:white;
+
+}
+
+#trait_green {
+  border: 0.5px solid var(--green);
+  width: 180px;
 
 }

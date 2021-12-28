@@ -47,33 +47,42 @@
                             <a class="menu__link" href="contact.html">Contact</a></li>
                     </ul>
                   </nav>
+
     </header>
 
     <main>
 
         <!--FORMULAIRE DE CONTACT-->
 
+<div id="trait_dessus"></div>
 <h2>CONTACT</h2>
-<img src="public/icones/contact1.png" alt="Contact">
 
-<p>N’hésitez pas à me contacter si vous constatez un problème !</p>
+<div class="iconeall">
+<img src="public/icones/contact1.png" alt="Contact">
+</div>
+
+<p class="contact__intro">N’hésitez pas à me contacter si vous constatez un problème !</p>
+<div class="contact__block">
 <section>
 <form action="#">
-    <div>
+    <div class="contact__groupe">
       <label for="first-name">Votre nom :</label>
       <input type="text" name="first-name" id="first-name">
     </div>
-    <div>
+    <div class="contact__groupe">
       <label for="last-name">Votre adresse e-mail :</label>
       <input type="text" name="last-name" id="last-name">
     </div>
-    <div>
+    <div class="contact__groupe">
       <label for="message">Votre message :</label>
-      <textarea id="message" name="message" rows="5"></textarea>
+      <textarea id="message" name="message" rows="9"></textarea>
     </div>
+    <div class="pied-formulaire">
     <button type="submit">Envoyer</button>
+    </div>
   </form>
 </section>
+</div>
     </main>
     
 <!--FOOTER-->
@@ -81,6 +90,7 @@
 <footer class="footer">
     <address>
         <p class="footer__nom">Mélina BOUCHELLEGHEM MMI TDA1</p>
+        <div id="trait_green"></div>
         <a class="footer__mail" href="mailto:melina.bouchelleghem@gmail.com">melina.bouchelleghem@gmail.com</a>
     </address>
         <a class="footer__linkedin" href="https://www.linkedin.com/in/m%C3%A9lina-bouchelleghem-67639a224/"><img src ="public/icones/linkedin1.png" alt ="LinkedIn"></a>

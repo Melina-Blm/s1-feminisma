@@ -1,0 +1,56 @@
+.contact__intro {
+    font-size: var(--mobile-m);
+    color:var(--gris);
+    display: block;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 35px;
+
+}
+.contact__block {
+    background-color: white;
+    padding:40px;
+    margin-bottom: 75px;
+}
+
+.contact__groupe{
+    margin-bottom: 20px;
+
+}
+
+form .contact__groupe label {
+    font-size: var(--mobile-lm);
+    color: var(--gris);
+    font-family: var(--font-lineal);
+
+}
+
+form .contact__groupe input {
+    background-color: var(--brown);
+    border-radius: 10px;
+    padding:10px;
+    width:290px;
+    border:none;
+}
+
+form .contact__groupe textarea {
+    background: var(--brown);
+    border-radius:10px;
+    width: 290px;
+    border:none;
+}
+
+form .pied-formulaire button {
+    display: block;
+    margin-top: 30px;
+    background-color:gainsboro;
+    text-transform: uppercase;
+    font-family: var(--font-lineal);
+    border-radius: 10px;
+    border:none;
+    padding:15px;
+    font-weight: bold;
+    font-size:18px;
+    color:white;
+    
+}
