@@ -53,7 +53,7 @@
     justify-content: center;
     font-size: var(--mobile-s);
     color:var(--gris);
-    margin-top: 0px;
+    margin-top: 0rem;
 }
 
 /*GLOSSAIRE*/
@@ -126,9 +126,9 @@ font-family: var(--font-lineal2)
 .introgallery {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-left: 30px;
-    margin-right:30px;
+    margin-bottom: 3.125rem;
+    margin-left: 1.875rem;
+    margin-right:1.875rem;
     color:var(--gris);
 
 }

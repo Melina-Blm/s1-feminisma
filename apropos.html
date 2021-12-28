@@ -14,39 +14,53 @@
     <!--DEBUT DE LA PAGE-->
 
 </head>
-<body>
+<body class=" ">
     <header class="headerpurple">
-
         <!--MENU-->
-                 <h1 class="header__titre"><a href="index.html">FEMINISMA</a></h1>
-        
-                <button class="header__iconemenu">
-                    <img src="public/icones/menu1.png" alt="Menu">
-                  </button>
-                  <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="index.html">Accueil</a></li>
-                        <li class= "menu__item">
-                            <a class="menu__link" href="article1.html">Les femmes au cinéma : un passé remplis de stéréotypes</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="article2.html">Jennifer Lawrence, actrice et féministe : une vie pas comme les autres.</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="article3.html">Les héroïnes au premier plan</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="galerie.html">Galerie</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="frise.html">Frise</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="glossaire.html">Glossaire</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="autresprojets.html">Autres projets</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="apropos.html">A propos</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="contact.html">Contact</a></li>
-                    </ul>
-                  </nav>
+        <h1 class="header__titre"><a href="index.html">FEMINISMA</a></h1>
+        <div class="nav-toggle" onclick ="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+
+        <nav class="menu">
+
+                <div class="switch_langue"><a href="ENhomepage.html"><img src="public/icones/globe.png" alt="Changement langue"></a></div>
+            <ul>
+                <li class= "categories_accueil">
+                    <a href="index.html">Accueil</a></li>
+
+                    <div class="separation_green"></div>
+
+                <li class="categories_pages">
+                    <a href="article1.html">Les femmes au cinéma : un passé remplis de stéréotypes</a></li>
+
+                <li class="categories_pages">
+                    <a href="article2.html">Jennifer Lawrence, actrice et féministe : une vie pas comme les autres.
+                    </a></li>
+
+                <li class="categories_pages">
+                    <a href="article3.html">Les héroïnes au premier plan</a></li>
+
+                    <div class ="separation_green"></div>
+
+                <li class="categories_pages">
+                    <a href="galerie.html">Galerie</a></li>
+
+                <li class="categories_pages">
+                    <a href="frise.html">Frise</a></li>
+
+                <li class="categories_pages">
+                    <a href="glossaire.html">Glossaire</a></li>
+
+                <li class="categories_pages">
+                    <a href="autresprojets.html">Autres projets</a></li>
+
+                <li class="categories_pages">
+                    <a href="apropos.html">A propos</a></li>
+                <li class="categories_pages">
+                    <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <div id="trait_dessus"></div>

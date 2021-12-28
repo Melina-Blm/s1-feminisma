@@ -1,5 +1,133 @@
+.nav-toggle {
+  /*background-color: orange;*/
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.nav-toggle-bar,
+.nav-toggle-bar::before,
+.nav-toggle-bar::after {
+  content:"";
+  background:white;
+  width:100%;
+  height:2px;
+  position: absolute;
+  left:0;
+  transition: all .4s ease-in-out;
+
+}
+.nav-toggle-bar::before {
+  top: -10px;
+  
+}
+  
+.nav-toggle-bar::after {
+  top: 10px;
+  
+}
+.menu-open .nav-toggle-bar {
+  transform: rotate(135deg);
+  background-color: var(--gray);
+}
+.menu-open .nav-toggle-bar::before,
+.menu-open .nav-toggle-bar::after {
+  transform: rotate(90deg);
+  background-color: var(--gray);
+  top: 0
+}
+/*MENU */
+
+.categories_accueil a {
+  font-size: 28px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
 .menu {
-    visibility: hidden;
-    position: fixed;
-  }
+  background: var(--beige);
+  position: fixed;
+  top:0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(100vw);
+  transition: all .7s ease;
+  z-index: 1;
+}
+.menu-open .menu {
+  transform: translateX(0);
+
+}
+/*BUG IOS = OVERFLOW APPLIQUE*/
+.menu-open, 
+.menu-open body {
+  overflow: hidden;
+
+}
+.separation_green {
+  border: 0.5px solid var(--green);
+  width: 150px;
+margin-left :110px;
+
+}
+
+.menu .switch_langue img{
+  position:absolute;
+  top:30px;
+  left: 30px;
+  height: 39px;
+  width: 39px;
+}
+
+.menu ul {
+  list-style :none;
+  margin: 0;
+  padding: 0;
+  font-size:20px;
+  text-transform: uppercase;
+}
+
+.menu li {
+  margin-top: 30px;
+  margin-bottom:25px;
+  margin-right: 25px;
+  margin-left:20px;
+  text-align: center;
+  font-family: var(--font-lineal2);
+  transform :translateX(30px);
+  opacity: 0;
+  transition: all .4s ease;
+}
+.menu a {
+  color:var(--gris);
+  text-decoration: none;
+}
+
+.menu-open .menu li {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.menu-open .menu li:nth-child(n+1) { transition-delay: .3s ; }
+.menu-open .menu li:nth-child(n+2) { transition-delay: .35s ; }
+.menu-open .menu li:nth-child(n+3) { transition-delay: .4s ; }
+.menu-open .menu li:nth-child(n+4) { transition-delay: .45s ; }
+.menu-open .menu li:nth-child(n+5) { transition-delay: .5s ; }
+.menu-open .menu li:nth-child(n+6) { transition-delay: .3s ; }
+.menu-open .menu li:nth-child(n+7) { transition-delay: .35s ; }
+.menu-open .menu li:nth-child(n+8) { transition-delay: .4s ; }
+.menu-open .menu li:nth-child(n+9) { transition-delay: .45s ; }
+.menu-open .menu li:nth-child(n+10) { transition-delay: .5s ; }
+
+
   
