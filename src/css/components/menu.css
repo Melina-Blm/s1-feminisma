@@ -72,7 +72,7 @@
 /*BUG IOS = OVERFLOW APPLIQUE*/
 .menu-open, 
 .menu-open body {
-  overflow: hidden;
+  overflow:hidden;
 
 }
 .separation_green {
@@ -101,8 +101,8 @@ text-align: center;
 }
 
 .menu li {
-  margin-top: 30px;
-  margin-bottom:25px;
+  margin-top: 25px;
+  margin-bottom:20px;
   margin-right: 25px;
   margin-left:20px;
   text-align: center;
