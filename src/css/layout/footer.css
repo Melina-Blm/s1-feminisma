@@ -32,6 +32,8 @@
 }
 .footer__linkedin {
   padding: 10px;
+  position:absolute;
+
 
 }
 .footer__mentions-legales{
@@ -50,5 +52,6 @@
 #trait_green {
   border: 0.5px solid var(--green);
   width: 180px;
+  text-align: center;
 
 }
