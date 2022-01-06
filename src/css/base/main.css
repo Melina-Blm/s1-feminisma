@@ -75,3 +75,28 @@ width : 375px;
   margin-bottom: 1.25rem;
 }
 
+.line_green {
+  position: absolute;
+  background-color:var(--green);
+width: 37px;
+height: 340px;
+left: 361px;
+top: 789px;
+}
+.line_green1 {
+position: absolute;
+background-color:var(--green);
+width: 37px;
+height: 340px;
+left: 360px;
+top: 582px;
+
+}
+.line_green2 {
+position: absolute;
+background-color:var(--green);
+width: 37px;
+height: 340px;
+left: 360px;
+top: 1800px;
+}

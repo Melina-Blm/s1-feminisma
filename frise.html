@@ -14,40 +14,55 @@
     <!--DEBUT DE LA PAGE-->
 
 </head>
-<body>
+<body class=" ">
     <header class="headerred">
-
         <!--MENU-->
-                 <h1 class="header__titre"><a href="index.html">FEMINISMA</a></h1>
-        
-                <button class="header__iconemenu">
-                    <img src="public/icones/menu1.png" alt="Menu">
-                  </button>
-                  <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="index.html">Accueil</a></li>
-                        <li class= "menu__item">
-                            <a class="menu__link" href="article1.html">Les femmes au cinéma : un passé remplis de stéréotypes</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="article2.html">Jennifer Lawrence, actrice et féministe : une vie pas comme les autres.</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="article3.html">Les héroïnes au premier plan</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="galerie.html">Galerie</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="frise.html">Frise</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="glossaire.html">Glossaire</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="autresprojets.html">Autres projets</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="apropos.html">A propos</a></li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="contact.html">Contact</a></li>
-                    </ul>
-                  </nav>
+        <h1 class="header__titre"><a href="index.html">FEMINISMA</a></h1>
+        <div class="nav-toggle" onclick ="document.documentElement.classList.toggle('menu-open')">
+            <div class="nav-toggle-bar"></div>
+        </div>
+
+        <nav class="menu">
+
+                <div class="switch_langue"><a href="ENhomepage.html"><img src="public/icones/globe.png" alt="Changement langue"></a></div>
+            <ul>
+                <li class= "categories_accueil">
+                    <a href="index.html">Accueil</a></li>
+
+         
+
+                <li class="categories_pages">
+                    <a href="article1.html">Les femmes au cinéma : un passé remplis de stéréotypes</a></li>
+
+                <li class="categories_pages">
+                    <a href="article2.html">Jennifer Lawrence, actrice et féministe : une vie pas comme les autres.
+                    </a></li>
+
+                <li class="categories_pages">
+                    <a href="article3.html">Les héroïnes au premier plan</a></li>
+
+              
+
+                <li class="categories_pages">
+                    <a href="galerie.html">Galerie</a></li>
+
+                <li class="categories_pages">
+                    <a href="frise.html">Frise</a></li>
+
+                <li class="categories_pages">
+                    <a href="glossaire.html">Glossaire</a></li>
+
+                <li class="categories_pages">
+                    <a href="autresprojets.html">Autres projets</a></li>
+
+                <li class="categories_pages">
+                    <a href="apropos.html">A propos</a></li>
+                <li class="categories_pages">
+                    <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
 
         <!--DEBUT DE LA FRISE-->
@@ -58,52 +73,53 @@
     <div class="iconeall">
         <img src="public/icones/date-decheance1.png" alt="Frise">
     </div>
+    <div class="timeline__line"></div>
     <article>
-        <h2>1896</h2>
-        <h3>Alice Guy Blaché devient la première femme à être réalisatrice au monde.</h3>
+        <h2 class="timeline__circle">1896</h2>
+       <p class="timeline__text--right">Alice Guy Blaché devient la première femme à être réalisatrice au monde.</p>
     </article>
     <article>
-        <h2>1910</h2>
-        <h3>Alice Guy crée la société Solax Film, l'une des plus importantes maisons de production des années 1910.</h3>
+        <h2 class="timeline__circle--red">1910</h2>
+        <p class="timeline__text--left">Alice Guy crée la société Solax Film, l'une des plus importantes maisons de production des années 1910.</p>
     </article>
     <article>
-        <h2>1911</h2>
-        <p><h3>Lois Weber (1879 - 1939) devient la cinéaste la plus audacieuse de son temps. </h3></p>
-        <p><h3>Elle met en avant des sujets tabous comme la peine de mort, l’égalité salariale, ou encore l’avortement.</h3></p>
+        <h2 class="timeline__circle">1911</h2>
+        <p class="timeline__text--right">Lois Weber (1879 - 1939) devient la cinéaste la plus audacieuse de son temps. Elle met en avant des sujets tabous comme la peine de mort, l’égalité salariale, ou encore l’avortement.</p>
     </article>
     <article>
-        <h2>1926</h2>
-        <h3>Lotte Reiniger travaille sur l’un des tout premiers longs métrages d'animation.</h3>
+        <h2 class="timeline__circle--red">1926</h2>
+        <p class="timeline__text--left">Lotte Reiniger travaille sur l’un des tout premiers longs métrages d'animation.</p>
     </article>
     <article>
-        <h2>1930</h2>
-        <h3>La scénariste Frances Marion devient la première femme à recevoir un Oscar pour celui de la meilleure adaptation et la meilleure histoire originale.</h3>
+        <h2 class="timeline__circle">1930</h2>
+        <p class="timeline__text--right">La scénariste Frances Marion devient la première femme à recevoir un Oscar pour celui de la meilleure adaptation et la meilleure histoire originale.</p>
     </article>
     <article>
-        <h2>1970</h2>
-        <h3>Mise en place d’un comité directeur des femmes (Women's Steering Committee), à l'initiative de six réalisatrices soucieuses d'égalité.</h3>
+        <h2 class="timeline__circle--red">1970</h2>
+        <p class="timeline__text--left">Mise en place d’un comité directeur des femmes (Women's Steering Committee), à l'initiative de six réalisatrices soucieuses d'égalité.</p>
     </article>
     <article>
-        <h2>1972</h2>
-        <h3>En 1972, le festival International du film d'Edinburgh propose le Women’s Event : c'est la première section uniquement consacrée aux réalisatrices.</h3>
+        <h2 class="timeline__circle">1972</h2>
+        <p class="timeline__text--right">En 1972, le festival International du film d'Edinburgh propose le Women’s Event : c'est la première section uniquement consacrée aux réalisatrices.</p>
     </article>
     <article>
-        <h2>1975</h2>
-        <p><h3>Laura Mulvey est considéré comme fondateur pour la théorie féministe sur le cinéma. Elle dénonce la manière dont le cinéma
-            contribue à la domination masculine.</h3></p>
-        <p><h3>Les personnages féminins, n'existant que pour procurer un plaisir visuel au public masculin, sont des objets regardés passifs alors que leurs partenaires hommes sont des sujets regardants actifs.</h3></p>
+        <h2 class="timeline__circle--red">1975</h2>
+        <p class="timeline__text--left">Laura Mulvey est considéré comme fondateur pour la théorie féministe sur le cinéma. Elle dénonce la manière dont le cinéma
+            contribue à la domination masculine.</p>
+        <p  class="timeline__text--left1">Les personnages féminins, n'existant que pour procurer un plaisir visuel au public masculin, sont des objets regardés passifs alors que leurs partenaires hommes sont des sujets regardants actifs.</p>
     </article>
     <article>
-        <h2>1976</h2>
-        <h3>L’actrice Delphine Seyrig rejoint les combats féministes et s’interroge sur la réprésentation de la femme dans le cinéma. (souvent perçus comme un désir).</h3>
+        <h2 class="timeline__circle">1976</h2>
+        <p class="timeline__text--right">L’actrice Delphine Seyrig rejoint les combats féministes et s’interroge sur la réprésentation de la femme dans le cinéma. (souvent perçus comme un désir).</p>
     </article>
     <article>
-        <h2>2010</h2>
-        <h3>Kathryn Bigelow devient la première et seule femme lauréate d'un Oscar du Meilleur réalisateur pour son film Démineurs.</h3>
+        <h2 class="timeline__circle--red">2010</h2>
+        <p class="timeline__text--left">Kathryn Bigelow devient la première et seule femme lauréate d'un Oscar du Meilleur réalisateur pour son film Démineurs.</p>
     </article>
     <article>
-        <h2>2017</h2>
-        <h3>Les femmes sont de plus en plus représentées dans les films d'action notamment avec la sortie du film Wonder Woman.</h3>
+        <h2 class="timeline__circle">2017</h2>
+        <p  class="timeline__text--right">Les femmes sont de plus en plus représentées dans les films d'action notamment avec la sortie du film Wonder Woman.</p>
+        <br>
     </article>
 </section>
     </main>
@@ -112,13 +128,15 @@
 
 <footer class="footer">
     <address>
+        <p class="linkedin"><a class="footer__linkedin" href="https://www.linkedin.com/in/m%C3%A9lina-bouchelleghem-67639a224/"><img src ="public/icones/linkedin1.png" alt ="LinkedIn"></a> </p>
         <p class="footer__nom">Mélina BOUCHELLEGHEM MMI TDA1</p>
         <div id="trait_green"></div>
         <a class="footer__mail" href="mailto:melina.bouchelleghem@gmail.com">melina.bouchelleghem@gmail.com</a>
     </address>
-        <a class="footer__linkedin" href="https://www.linkedin.com/in/m%C3%A9lina-bouchelleghem-67639a224/"><img src ="public/icones/linkedin1.png" alt ="LinkedIn"></a>
-    <p class="footer__mentions-legales">"Projet réalisé dans le cadre d'un exercice<br> pédagogique
-        au département <a href="http://mmimontbeliard.com/">MMI de Montbéliard</a>"</p>
+        
+    <p class="footer__mentions-legales">Projet réalisé dans le cadre d'un exercice<br> pédagogique
+        au département <a href="http://mmimontbeliard.com/">MMI de Montbéliard.</a></p>
+
 </footer>
 
 </body>
