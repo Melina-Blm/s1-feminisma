@@ -1,7 +1,5 @@
 .header{
     background-color: var(--green);
-/*display:flex;
-justify-content:center*/
 
     
 }
@@ -18,8 +16,6 @@ justify-content:center*/
 }
 .header__titre{
     margin:0;
-
-    /*MARGIN POUR ENLEVER LESPACE EN HAUT*/
 }
 .header__titre a{
     color : var(--white);
@@ -38,3 +34,4 @@ justify-content:center*/
     justify-content: center;
     color: var(--gris);
 }
+/*PROPRIETES CSS POUR LE HEADER*/
