@@ -17,6 +17,7 @@
 @import url('layout/forms.css');
 @import url('layout/section-presentation.css');
 @import url('layout/section.css');
+@import url('layout/404.css');
 
 /*Components*/
 @import url('components/menu.css');

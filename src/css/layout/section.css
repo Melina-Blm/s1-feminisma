@@ -140,6 +140,10 @@ font-family: var(--font-lineal2)
     color:var(--gris);
     margin-bottom: 3.125rem;
 }
+.textgallery a {
+    color:var(--grey);
+    font-weight: bold;
+}
 .legendgallery {
     text-align: center;
     margin-left: 3.125rem;

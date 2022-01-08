@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html class="page__test" lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site de Bat'eco">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://animejs.com/lib/anime.min.js"></script>
+    <script src="src/js/fonctions.js"></script>
+    <title>404 - PAGE NOT FOUND</title>
+    <link rel="stylesheet" href="src/css/style.css">
+  </head>
+
+<body class="body_404">
+  <header>
+    <div class="title_404">
+    <h1>ERROR 404 - PAGE NOT FOUND</h1>
+    </div>
+    <br>
+    <form action="https://duckduckgo.com/" method="GET" 
+    x-data="{ q:'', }" 
+    x-on:submit="q = q + ' site:mmimontbeliard.com'">
+    <label for="q">Recherche :</label>
+    <input type="text" id="q" name="q" x-model="q">
+    <button type="submit">Rechercher</button>
+</form>
+  </header>
+  <div class="groupe1_404">
+  <a href="index.html">ACCUEIL</a>
+  </div>
+  <div class="groupe2_404">
+  <a href="article1.html">LES FEMMES AU CINEMA</a>
+  </div>
+  <div class="groupe3_404">
+  <a href="article2.html">JENNIFER LAWRENCE, FEMINISTE</a>
+  </div>
+  <div class="groupe4_404">
+  <a href="article3.html">LES HEROINES AU PREMIER PLAN</a>
+  </div>
+  <div class="groupe5_404">
+  <a href="apropos.html">A PROPOS</a>
+  </div>
+
+  <main>
+
+    <footer>
+
+    </footer>
+    </main>
+</body>
+</html>
