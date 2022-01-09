@@ -184,3 +184,12 @@ font-family: var(--font-lineal2)
     margin-top: -1.25rem;
     margin-bottom: 2.813rem;
 }
+.intromicrotrottoir {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    color:var(--gris);
+    margin-bottom: -20px;
+    
+}
